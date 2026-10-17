@@ -1,0 +1,83 @@
+export const sites = {
+    Bank: ["Archives/Tellers", "Lockers/CCTV", "CEO/Office", "Staff/Service"],
+    Border: [
+        "Bathroom/Tellers",
+        "Workshop/Ventilation",
+        "Armory/Archives",
+        "Customs/Storage",
+    ],
+    Chalet: [
+        "Wine Cellar/Snowmobile Garage",
+        "Kitchen/Dining",
+        "Master Bedroom/Office",
+        "Bar/Games Room",
+    ],
+    Clubhouse: ["Gym/Bedroom", "CCTV/Cash", "Bar/Stockroom", "Church/Arsenal"],
+    Coastline: [
+        "Kitchen/Service",
+        "Blue Bar/Sunrise Bar",
+        "Penthouse/Theater",
+        "Hookah Lounge/Billiards",
+    ],
+    Consulate: [
+        "Consul Office/Meeting Room",
+        "Exposition Room/Piano Room",
+        "Servers/Tellers",
+        "Cafeteria/Garage",
+    ],
+    "Emerald Plains": [
+        "CEO Office/Administration",
+        "Private Gallery/Meeting",
+        "Bar/Lounge",
+        "Dining/Kitchen",
+    ],
+    "Kafe Dostoyevsky": [
+        "Kitchen/Service",
+        "Bar/Cocktail",
+        "Reading/Fireplace",
+        "Mining/Dining",
+    ],
+    Kanal: ["Coast/Lounge", "Maps/Security", "Radar/Server", "Kayaks/Supply"],
+    Lair: [
+        "Master Office/R6 Room",
+        "Bunks/Briefing",
+        "Armory/Weapon Maintenance",
+        "Basement Lab/Lab Support",
+    ],
+    "Nighthaven Labs": [
+        "Command/Server",
+        "Control/Storage",
+        "Kitchen/Cafeteria",
+        "Tank/Assembly",
+    ],
+    Oregon: [
+        "Kids' Room/Dorms",
+        "Kitchen/Dining",
+        "Meeting Hall/Kitchen",
+        "Laundry/Supply",
+    ],
+    Outback: [
+        "Green Bedroom/Red Bedroom",
+        "Laundry Room/Piano",
+        "Mechanic/Kitchen",
+        "Party Room/Office",
+    ],
+    Skyscraper: [
+        "Bedroom/Office",
+        "Kitchen/BBQ",
+        "Exhibition/Office",
+        "Tea Room/Karaoke",
+    ],
+    "Theme Park": [
+        "Armory/Throne Room",
+        "Initiation/Office",
+        "Lab/Storage",
+        "Day Care/Bunk",
+    ],
+    Villa: [
+        "Aviator/Games",
+        "Statue/Trophy",
+        "Dining/Kitchen",
+        "Living Room/Library",
+    ],
+} as const;

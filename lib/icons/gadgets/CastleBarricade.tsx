@@ -1,0 +1,37 @@
+export const CastleBarricade = ({
+    fill = "white",
+    ...props
+}: React.SVGProps<SVGSVGElement>) => {
+    return (
+        <svg
+            viewBox="0 0 50 82"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            {...props}
+        >
+            <path d="M46 7H4V15H23V11H27V15H46V7Z" fill={fill} />
+            <path d="M27 17H46V25H27V17Z" fill={fill} />
+            <path d="M4 17H23V25H4V17Z" fill={fill} />
+            <path
+                d="M23 27H4V35H14.2778L13.7417 34.25H36.2583L35.7222 35H46V27H27V30H23V27Z"
+                fill={fill}
+            />
+            <path d="M15.7074 37H4V45H21.4259L15.7074 37Z" fill={fill} />
+            <path d="M34.2926 37H46V45H28.5741L34.2926 37Z" fill={fill} />
+            <path
+                d="M27.1444 47H46V55H27V51L25 53.7218L23 51V55H4V47H22.8556L25 50L27.1444 47Z"
+                fill={fill}
+            />
+            <path d="M23 57H4V65H23V57Z" fill={fill} />
+            <path d="M27 57H46V65H27V57Z" fill={fill} />
+            <path d="M27 67H46V75H4V67H23V71.7218H27V67Z" fill={fill} />
+            <path d="M25 46L18.9378 37H31.0622L25 46Z" fill={fill} />
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M0 0H50V82H0V0ZM1 5H49V77H1V5ZM17 1H6V4H17V1ZM6 78H17V81H6V78ZM45 1H34V4H45V1ZM34 78H45V81H34V78Z"
+                fill={fill}
+            />
+        </svg>
+    );
+};
